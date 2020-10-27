@@ -6,7 +6,7 @@
 import scrapy
 
 
-class MyprojectItem(scrapy.Item):
+class Headline(scrapy.Item):
     # define the fields for your item here like:
     title = scrapy.Field()
     body = scrapy.Field()
